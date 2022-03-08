@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Staatliches&display=swap");
+.main {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-color: #133535;
+  height: 91vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 auto;
+  padding: 8rem;
+  color: white;
+  font-family: 'Staatliches', cursive;
+  font-size: 3rem;
+}
+
+.main button {
+  height: 5rem;
+  width: 10%;
+  background-color: black;
+  outline: 0;
+  border: 0;
+  color: white;
+  font-size: 1.8rem;
+  font-family: 'Staatliches', cursive;
+  border-radius: 5px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.main button:hover {
+  cursor: pointer;
+}
+
+.btn-soma:hover {
+  background-color: #276b27;
+}
+
+.btn-sub:hover {
+  background-color: #8d2121;
+}
+/*# sourceMappingURL=style.css.map */

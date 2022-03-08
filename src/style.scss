@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+
+.main{
+  box-sizing: border-box;
+  background-color: rgb(19, 53, 53);
+  height: 91vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  padding: 8rem;
+  color: white;
+  font-family: 'Staatliches', cursive;
+  font-size: 3rem;
+  button{
+    height: 5rem;
+    width: 10%;
+    background-color: black;
+    outline: 0;
+    border: 0;
+    color: white;
+    font-size: 1.8rem;
+    font-family: 'Staatliches', cursive;
+    border-radius: 5px;
+    transition: 0.5s;
+  }
+  button:hover{
+    cursor: pointer;
+  }
+}
+
+.btn-soma:hover{
+  background-color: rgb(39, 107, 39);
+}
+
+.btn-sub:hover{
+  background-color: rgb(141, 33, 33);
+}
