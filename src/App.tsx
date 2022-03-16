@@ -15,11 +15,6 @@ const App = () =>{
       contador(numero - 1)
     }
 
-    const [name, nameChange] = useState('')
-
-    const nome = (event: React.ChangeEvent<HTMLInputElement>) =>{
-      nameChange(event.target.value)
-    }
 
   return(
 
